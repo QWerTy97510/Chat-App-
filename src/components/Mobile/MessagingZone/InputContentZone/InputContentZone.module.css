@@ -1,0 +1,38 @@
+@media (max-width: 420px) {
+  .InputContentZone {
+    margin: 5px 20px;
+    width: calc(100% - 40px);
+    height: 7vh;
+    position: absolute;
+    bottom: 0;
+    /* background-color: beige; */
+  }
+
+  .InputContentZone input {
+    /* margin: 5px 20px; */
+    font-size: 1.1rem;
+    padding: 10px;
+    width: calc(100% - 20px);
+    border: none;
+    border-radius: 5px;
+    outline-color: rgb(74, 178, 204);
+  }
+
+  .InputContentZone button {
+    position: absolute;
+    top: 20%;
+    right: 2%;
+    transform: translate(-2%, -20%);
+    background-color: #ffffff;
+    border: none;
+    height: 32px;
+    padding-top: 2px;
+    padding-left: 10px;
+    outline: none;
+    z-index: 5;
+  }
+
+  .InputContentZone button img {
+    width: 20px;
+  }
+}

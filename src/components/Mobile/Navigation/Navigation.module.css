@@ -1,0 +1,22 @@
+@media (max-width: 420px) {
+  .Navigation {
+    width: 100vw;
+    height: 9vh;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 0;
+    line-height: 12vh;
+  }
+
+  .Navigation .IconDiv {
+    width: 60px;
+    text-align: center;
+    height: 60px;
+  }
+
+  .Navigation .IconDiv img {
+    width: 40px;
+  }
+}

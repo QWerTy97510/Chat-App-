@@ -1,0 +1,25 @@
+@media (max-width: 420px) {
+  .Friend {
+    margin: 15px 10px;
+    width: auto;
+    height: 6vh;
+    background-color: #ffffff;
+    line-height: 6vh;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+  }
+
+  .Friend h3 {
+    margin: 0 20px;
+  }
+
+  .Friend a {
+    padding-top: 5px;
+  }
+
+  .Friend a img {
+    width: 20px;
+    margin: 0 25px;
+  }
+}

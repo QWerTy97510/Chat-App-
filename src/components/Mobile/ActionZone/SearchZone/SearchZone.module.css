@@ -1,0 +1,26 @@
+@media (max-width: 420px) {
+  .SearchZone {
+    width: 100%;
+    height: auto;
+    padding: 5px 0px;
+  }
+
+  .SearchZone .SearchInput {
+    width: 100%;
+    height: 6vh;
+    position: sticky;
+    top: 0;
+
+    background-color: #d7eff7;
+  }
+
+  .SearchInput input {
+    margin: 10px 10px;
+    width: calc(100vw - 40px);
+    font-size: 1.1rem;
+    padding: 5px 10px;
+    outline-color: rgb(74, 178, 204);
+    border: none;
+    border-radius: 3px;
+  }
+}

@@ -1,0 +1,15 @@
+@media (max-width: 420px) {
+  .MessagingZone {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(
+      to right bottom,
+      #c0effe,
+      #acd9e8,
+      #98c4d2,
+      #84afbd,
+      #719ba8
+    );
+    position: relative;
+  }
+}

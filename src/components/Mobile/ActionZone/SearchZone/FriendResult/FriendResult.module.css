@@ -1,0 +1,25 @@
+@media (max-width: 402px) {
+  .FriendSearch {
+    margin: 15px 10px;
+    width: auto;
+    height: 6vh;
+    background-color: #ffffff;
+    line-height: 6vh;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+  }
+
+  .FriendSearch h3 {
+    margin: 0 20px;
+  }
+
+  .FriendSearch button {
+    border: none;
+    background-color: transparent;
+    letter-spacing: 0.1rem;
+    outline: none;
+    color: #036d90;
+    margin: 0 20px;
+  }
+}

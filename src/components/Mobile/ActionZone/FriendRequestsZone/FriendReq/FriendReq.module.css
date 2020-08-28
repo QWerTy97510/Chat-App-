@@ -1,0 +1,33 @@
+@media (max-width: 420px) {
+  .FriendRequest {
+    margin: 15px 10px;
+    width: auto;
+    height: 6vh;
+    background-color: #ffffff;
+    line-height: 6vh;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+  }
+
+  .FriendRequest h3 {
+    margin: 0 20px;
+  }
+
+  .FriendRequest .FriendResponse {
+    width: auto;
+    height: 100%;
+    /* line-height: inherit; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .FriendResponse a {
+    margin-top: 5px;
+  }
+
+  .FriendResponse a img {
+    margin: 0 20px;
+  }
+}

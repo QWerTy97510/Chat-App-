@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.active {
+  border-bottom: 5px solid #074155;
+}
+
+.container {
+  position: relative;
+}
+
+.page {
+  position: absolute;
+  left: 15px;
+  right: 15px;
+}
+
+.page-enter {
+  opacity: 0;
+  transform: scale(1.1);
+}
+
+.page-enter-active {
+  opacity: 1;
+  transform: scale(1);
+  transition: opacity 300ms, transform 300ms;
+}
+
+.page-exit {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.page-exit-active {
+  opacity: 0;
+  transform: scale(0.9);
+  transition: opacity 300ms, transform 300ms;
+}
+
+.valid {
+  outline: none !important;
+  border: 1.2px solid rgb(23, 196, 23) !important;
+}
+
+.invalid {
+  outline: none !important;
+  border: 1.2px solid rgb(255, 0, 0) !important;
+}
+
+.inactiveBtn {
+  background-color: rgb(164, 166, 167) !important;
+}

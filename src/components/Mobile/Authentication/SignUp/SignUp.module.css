@@ -1,0 +1,70 @@
+@media (max-width: 420px) {
+  .SignUp {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-color: #d7eff7;
+  }
+
+  .SignUp header {
+    width: 100%;
+    color: #5a5b5c;
+    text-align: center;
+    position: absolute;
+    top: 15%;
+  }
+
+  .SignUp header h1 {
+    letter-spacing: 0.7rem;
+  }
+
+  .SignUp a {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+  }
+
+  .SignUp a img {
+    width: 30px;
+  }
+
+  .SignUpForm {
+    width: 100%;
+    position: absolute;
+    top: 28%;
+    text-align: center;
+  }
+
+  .SignUpForm__Input {
+    width: 70%;
+    margin: 15px auto;
+  }
+
+  .SignUpForm__Input input {
+    padding: 5px 10px;
+    width: calc(100% - 20px);
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 3px;
+    outline-width: 2px;
+    outline-color: rgb(74, 178, 204);
+  }
+
+  .SignUpForm__Btn button {
+    background-color: #b3dfee;
+    color: #5a5b5c;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border: none;
+    margin: 10px 0px;
+    padding: 6px 60px;
+    border-radius: 5px;
+    outline: none;
+    transition: background-color 0.3s ease;
+  }
+
+  .SignUpForm__Btn button:hover,
+  .SignUpForm__Btn button:active {
+    background-color: #94c9db;
+  }
+}

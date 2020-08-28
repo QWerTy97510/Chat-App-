@@ -1,0 +1,39 @@
+@media (max-width: 420px) {
+  .SentMessage {
+    width: auto;
+    max-width: 70%;
+    height: auto;
+    background-color: #78b2c4;
+    border-radius: 5px;
+    border: 1px solid #ffffff;
+    padding: 0px 10px;
+    position: relative;
+    left: 80px;
+    margin: 9px 0;
+  }
+
+  .SentMessage h4 {
+    font-weight: 500;
+    font-size: 0.9rem;
+  }
+
+  .SentMessage h4.Senter {
+    width: fit-content;
+    margin: 5px 0;
+  }
+
+  .SentMessage h4.Time {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 5px;
+  }
+
+  .SentMessage .Content {
+    margin: 0;
+  }
+
+  .SentMessage .Content p {
+    margin: 5px 0 8px;
+  }
+}

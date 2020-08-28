@@ -1,0 +1,39 @@
+@media (max-width: 420px) {
+  .IncomingMessage {
+    width: auto;
+    max-width: 70%;
+    height: auto;
+    background-color: #a6dbeb;
+    border-radius: 5px;
+    border: 1px solid #ffffff;
+    padding: 0px 10px;
+    position: relative;
+
+    margin: 9px 0;
+  }
+
+  .IncomingMessage h4 {
+    font-weight: 500;
+    font-size: 0.9rem;
+  }
+
+  .IncomingMessage h4.Senter {
+    width: fit-content;
+    margin: 5px 0;
+  }
+
+  .IncomingMessage h4.Time {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 5px;
+  }
+
+  .IncomingMessage .Content {
+    margin: 0;
+  }
+
+  .IncomingMessage .Content p {
+    margin: 5px 0 8px;
+  }
+}

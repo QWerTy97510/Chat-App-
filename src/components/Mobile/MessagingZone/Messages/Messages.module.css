@@ -1,0 +1,10 @@
+@media (max-width: 420px) {
+  .Messages {
+    width: auto;
+    height: 80vh;
+    margin: 20px 10px;
+    overflow-y: scroll;
+    overflow-anchor: bottom;
+    scroll-behavior: smooth;
+  }
+}
