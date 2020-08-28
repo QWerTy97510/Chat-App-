@@ -2,7 +2,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Proict realizat folosind ReactJS
 
-## Librarii folosite
+## Librarii si pachete folosite
 ### Axios
 ### Socket.io-Client
 ### Validator
